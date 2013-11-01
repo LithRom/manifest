@@ -1,0 +1,4 @@
+manifest
+========
+
+Android default manifest
