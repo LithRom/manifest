@@ -26,6 +26,6 @@ Now build:
     cd ../../../
     . build/envsetup.sh
     lunch aosp_mako-userdebug
-    time make -j$(grep -c /proc/cpuinfo ^processor) otapackage
+    time make -j$(grep -c ^processor /proc/cpuinfo) otapackage
     
 These are the quick and dirty, over the next few days code will be added and this process will decrease. If there is an issue, please let me know so I can fix it. Thanks!
