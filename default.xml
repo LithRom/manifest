@@ -416,7 +416,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="Lithoca/system_core" remote="Lithoca" revision="master" groups="pdk" />
-  <project path="system/extras" name="LithRom/system_extras" remote="lithrom" revision="master" groups="pdk" />
+  <project path="system/extras" name="Lithoca/system_extras" remote="Lithoca" revision="master" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
