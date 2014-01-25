@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="LithRom/build" remote="lithrom" revision="master" groups="pdk" >
+  <project path="build" name="Lithoca/build" remote="Lithoca" revision="master" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
