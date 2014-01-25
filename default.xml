@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="lithrom"
+  <remote  name="Lithoca"
            fetch=".." />
            
     <remote  name="aosp"
@@ -44,9 +44,9 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="LithRom/device_lge_hammerhead" remote="lithrom" revision="master" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="Lithoca/device_lge_hammerhead" remote="Lithoca" revision="master" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
-  <project path="device/lge/mako" name="LithRom/device_lge_mako" remote="lithrom" revision="master" groups="device,mako" />
+  <project path="device/lge/mako" name="Lithoca/device_lge_mako" remote="Lithoca" revision="master" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -148,8 +148,6 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="lithrom" revision="master" />
-  <project path="external/koush/Widgets" name="koush/Widgets" remote="lithrom" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
@@ -321,7 +319,7 @@
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Launcher3" name="LithRom/packages_apps_Launcher3" remote="lithrom" revision="master" />
+  <project path="packages/apps/Launcher3" name="Lithoca/packages_apps_Launcher3" remote="Lithoca" revision="master" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -334,7 +332,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="LithRom/packages_apps_Settings" remote="lithrom" revision="master" />
+  <project path="packages/apps/Settings" name="Lithoca/packages_apps_Settings" remote="Lithoca" revision="master" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -417,7 +415,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="LithRom/system_core" remote="lithrom" revision="master" groups="pdk" />
+  <project path="system/core" name="Lithoca/system_core" remote="Lithoca" revision="master" groups="pdk" />
   <project path="system/extras" name="LithRom/system_extras" remote="lithrom" revision="master" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
