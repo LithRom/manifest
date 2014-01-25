@@ -6,7 +6,7 @@ Possible devices:
      
 Now build:
 
-    repo init -u https://github.com/LithRom/manifest.git -b master
+    repo init -u https://github.com/Lithoca/manifest.git -b master
     cd device/lge/mako
     ./extract-files.sh
     cd ../../../
