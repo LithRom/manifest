@@ -8,7 +8,7 @@ Possible devices:
 Now build:
 
     repo init -u https://github.com/Lithoca/manifest.git -b master
-    cd device/lge/mako
+    cd device/lge/hammerhead
     ./extract-files.sh
     cd ../../../
     . build/envsetup.sh
